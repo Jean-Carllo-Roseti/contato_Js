@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    margin-top: 200px;
+}
+
+div {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    justify-content: center;
+    background-color: rgb(238, 39, 59);
+}
+
+header img {
+    margin-right: 8px;
+    height: 40px;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+form input {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 8px;
+    color: white;
+    font-size: 16px ;
+    background-color: green;
+    border: none;
+}
+
+.custom-button {
+    background-image: url("imagens/2lix2.png");
+    background-size: cover;
+    background-color: transparent;
+    border: none;   
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+
+table img {
+    height: 26px;
+}
+
+table thead {
+    background-color: yellow;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 16px;
+}
+
+tbody tr {
+    text-align: center;
+    background-color: violet;
+}
+
+table td {
+    background-color: ;
+    padding: 8px;
+}
+
+

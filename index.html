@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">  
+    <title>Agenda</title>
+</head>
+<body>
+    <div>
+        <header>
+            <img src="imagens/contato.png" alt="emoji de uma Agenda"/>
+            <h1>Contatos</h1>
+        </header>
+        <form id="formulario">
+            <input id="nomeContato" type="text" required placeholder="Nome"/>
+            <input id="numeroContato" type="tel" required maxlength="14" placeholder="(99) 99999-9999">
+            <button type="submit" onclick="formatarNumero()">Salvar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th><img src="imagens/1f524.png" alt="emoji de um telefone"/> Nome</th>
+                    <th><img src="imagens/1f4de.png" alt="emoji de um ABC"/> Numero</th>
+                    <th><img src="imagens/2lix2.png" alt="emoji de lixeira" />Excluir </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="linha-contato">
+                    <td>Carlos alberto</td>
+                    <td>99 9999-9999</td>
+                    <td><button class="custom-button" title="Excluir Contato" onclick="excluirLinha(this)"></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
