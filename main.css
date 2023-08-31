@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: azure;
+    background-color: white;
     margin-top: 200px;
 }
 
@@ -13,7 +13,7 @@ div {
     max-width: 640px;
     width: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: rgb(165, 248, 163);
 
 }
 
@@ -24,8 +24,7 @@ header {
     margin-bottom: 6px;
     padding-bottom: 10px;
     justify-content: center;
-    background-color: rgb(238, 39, 59);
-}
+    background-color: rgb(69, 119, 211);}
 
 header img {
     margin-right: 8px;
@@ -48,28 +47,20 @@ form input {
 
 form button {
     margin-top: 8px;
-    color: white;
+    color: rgb(5, 5, 5);
     font-size: 16px ;
-    background-color: green;
+    background-color: rgb(74, 230, 18);
     border: none;
+    padding: 4px;
 }
 
-.custom-button {
-    background-image: url("imagens/2lix2.png");
-    background-size: cover;
-    background-color: transparent;
-    border: none;   
-    height: 26px;
-    width: 26px;
-    cursor: pointer;
-}
 
 table img {
     height: 26px;
 }
 
 table thead {
-    background-color: yellow;
+    background-color: rgb(74, 230, 18);
 }
 
 table {
@@ -80,7 +71,7 @@ table {
 
 tbody tr {
     text-align: center;
-    background-color: violet;
+    background-color: rgb(140, 175, 240);
 }
 
 table td {

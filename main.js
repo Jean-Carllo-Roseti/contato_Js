@@ -10,21 +10,19 @@ form.addEventListener('submit', function(e) {
     let linha = '<tr class="linha-contao">'
     linha += `<td>${inputNome.value}</td>`;
     linha += `<td>${inputNumero.value}</td>`;
-    linha += `<td><button class="custom-button" onclick="excluirLinha()"></button></td>`;
     linha += '</tr>';
 
     linhas +=linha;
 
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
+
+    inputNome.value = ('');
+    inputNumero.value= ('');
+    
 });
 
-function excluirLinha(button) {
-    var row = button.closest('.linha-contato');
-    if (row) {
-        row.remove();
-    }
-}
+
 
 
 function formatarNumero() {
